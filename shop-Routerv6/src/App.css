@@ -1,0 +1,61 @@
+form textarea {
+    height: 100px;
+}
+
+.qty {
+    font-weight: bold;
+}
+
+/* Navbar and Font Awesome icon styling */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar .fa-lg {
+    font-size: 1.25em;
+}
+
+/* Cart page */
+.cart-title-icon {
+    vertical-align: middle;
+}
+
+.cart-card {
+    transition: box-shadow 0.2s ease;
+}
+
+.cart-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.cart-img {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Display products - add/subtract button alignment */
+.display-products-row {
+    align-items: center;
+}
+
+.btn-icon {
+    min-width: 2.5rem;
+}
+
+.product-image-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.product-image-wrap .product-info-hint {
+    display: block;
+    font-size: 0.85rem;
+    color: #0dcaf0;
+    margin-top: 0.25rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

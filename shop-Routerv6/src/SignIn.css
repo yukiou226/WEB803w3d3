@@ -1,0 +1,75 @@
+/* Sign In page - match assignment UI */
+.signin-container {
+    max-width: 520px;
+}
+
+.signin-title {
+    font-weight: bold;
+    color: #212529;
+}
+
+.signin-instruction {
+    font-size: 1rem;
+    color: #212529;
+}
+
+.signin-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.signin-card-body {
+    background-color: #f8f8f8;
+}
+
+.signin-card .form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.btn-login {
+    background-color: #198754;
+    border-color: #198754;
+    color: #fff;
+}
+
+.btn-login:hover {
+    background-color: #157347;
+    border-color: #146c43;
+    color: #fff;
+}
+
+.fb-login-wrapper {
+    margin-top: 1rem;
+}
+
+/* Facebook button: dark blue, white text, Facebook icon */
+.btn-fb-login {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem 1rem !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.02em;
+    background-color: #1877f2 !important;
+    border: none !important;
+    border-radius: 0.25rem;
+    color: #fff !important;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-fb-login:hover {
+    background-color: #166fe5 !important;
+    color: #fff !important;
+}
+
+.btn-fb-login:focus {
+    box-shadow: 0 0 0 0.25rem rgba(24, 119, 242, 0.25);
+    color: #fff !important;
+}
